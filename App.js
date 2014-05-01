@@ -24,6 +24,7 @@ Ext.define('CustomApp', {
     },
     
     // Create and show grid of given Stories
+    // Add another comment
     _loadGrid: function(myStoryStore) {
     	 
     	var myGrid = Ext.create(Rally.ui.grid.Grid, {
