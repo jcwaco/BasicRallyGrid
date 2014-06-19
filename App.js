@@ -7,6 +7,7 @@ Ext.define('CustomApp', {
         this._loadData();
     },
     // Get Data from Rally
+    // New Comment
     _loadData: function() {
     	
     	var myStore = Ext.create('Rally.data.wsapi.Store', {
