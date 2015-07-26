@@ -1,8 +1,6 @@
     // This comment added to show Flowdock integration
     // 04/13/2015
     //
-	//More comments added locally.
-	//Sure hope this works.
 
 Ext.define('CustomApp', {
     extend: 'Rally.app.App',
@@ -14,6 +12,8 @@ Ext.define('CustomApp', {
     },
     // Get Data from Rally
     // New Comment
+    //
+    // this a new comment that I want to push
     //
     _loadData: function() {
     	
