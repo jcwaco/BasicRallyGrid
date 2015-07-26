@@ -15,6 +15,10 @@ Ext.define('CustomApp', {
     //
     // this a new comment that I want to push
     //
+    // More and more functionality
+    //
+    // It just keeps coming
+    //
     _loadData: function() {
     	
     	var myStore = Ext.create('Rally.data.wsapi.Store', {
