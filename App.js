@@ -1,3 +1,7 @@
+    // This comment added to show Flowdock integration
+    // 04/13/2015
+    //
+
 Ext.define('CustomApp', {
     extend: 'Rally.app.App',
     componentCls: 'app',
@@ -7,9 +11,8 @@ Ext.define('CustomApp', {
         this._loadData();
     },
     // Get Data from Rally
-    // This is a Test
-    //Check to see if this gets to remote
-    // End Test
+    // New Comment
+    //
     _loadData: function() {
     	
     	var myStore = Ext.create('Rally.data.wsapi.Store', {
