@@ -1,8 +1,13 @@
-    // This comment added to show Flowdock integration
-    // 04/13/2015
-    //
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BasicRallyGrid</title>
 
-Ext.define('CustomApp', {
+    <script type="text/javascript" src="/apps/2.0rc2/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function () {
+                Ext.define('CustomApp', {
     extend: 'Rally.app.App',
     componentCls: 'app',
     
@@ -11,8 +16,6 @@ Ext.define('CustomApp', {
         this._loadData();
     },
     // Get Data from Rally
-    // New Comment
-    //
     _loadData: function() {
     	
     	var myStore = Ext.create('Rally.data.wsapi.Store', {
@@ -45,4 +48,25 @@ Ext.define('CustomApp', {
          console.log('What is This?', this);
     }
 
+
 });
+
+
+            Rally.launchApp('CustomApp', {
+                name:"BasicRallyGrid",
+	            parentRepos:""
+            });
+
+        });
+    </script>
+
+
+    <style type="text/css">
+        .app {
+     /* Add app styles here */
+}
+
+    </style>
+</head>
+<body></body>
+</html>
