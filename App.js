@@ -1,6 +1,8 @@
     // This comment added to show Flowdock integration
     // 04/13/2015
     //
+	//More comments added locally.
+	//Sure hope this works.
 
 Ext.define('CustomApp', {
     extend: 'Rally.app.App',
