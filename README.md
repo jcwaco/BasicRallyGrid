@@ -2,7 +2,7 @@ BasicRallyGrid
 =========================
 
 ## Overview
-
+This App is a test of the App Dev setup for Rally.
 
 ## License
 
